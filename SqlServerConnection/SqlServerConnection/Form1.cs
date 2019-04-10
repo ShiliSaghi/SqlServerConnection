@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Data.SqlClient;
 
 namespace SqlServerConnection
 {
     public partial class Form1 : Form
     {
+        //Sql connection
+    
         public Form1()
         {
             InitializeComponent();
